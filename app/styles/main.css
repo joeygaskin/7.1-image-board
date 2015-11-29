@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-image: url("app/img/bg.png");
+  background-repeat: repeat;
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.top {
+  background-image: url("app/img/nav_bg.png");
+  background-repeat: repeat;
+  height: 50px;
+  width: 100%;
+  top: 0px; }
+
+.drop {
+  margin-top: 3px;
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
+  position: absolute; }
+
+.drop-box {
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 40px; }
+
+.hidden {
+  display: none; }
+
+.top button {
+  background-image: url("app/img/navaddbutton.png");
+  height: 47px;
+  width: 26px;
+  border: none;
+  margin-left: 100px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Typography
+$base-font-family: $helvetica;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$very-light-gray: #fafafa;
+
+$base-font-color: $dark-gray;
+$base-background-color: $very-light-gray;
+
+body {
+  background-image: url('app/img/bg.png');
+  background-repeat: repeat;
+  color: $base-font-color;
+  font-family: $base-font-family;
+}
+
+.top {
+  background-image: url('app/img/nav_bg.png');
+  background-repeat: repeat;
+  height: 50px;
+  width: 100%;
+  top: 0px;
+}
+
+.drop {
+  margin-top: 3px;
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+}
+
+.drop-box {
+ margin: 0 auto;
+ width: 800px;
+ padding-top: 40px;
+}
+
+
+.hidden {
+  display: none;
+
+}
+
+.top button {
+background-image: url('app/img/navaddbutton.png');
+height: 47px;
+width: 26px;
+border: none;
+margin-left: 100px;
+}
