@@ -22,7 +22,7 @@ var uglify       = require('gulp-uglify');
 var useref       = require('gulp-useref');
 var wiredep      = require('wiredep').stream;
 var wrap         = require('gulp-wrap');
-var wrapCommonjs = require('gulp-wrap-commonjs');
+var wrapJs       = require('gulp-wrap-js');
 
 gulp.task('styles', function () {
   return gulp.src('app/scss/**/*.scss')
